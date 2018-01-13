@@ -14,7 +14,7 @@ LOGSTART1 "Components"
 ########################
 cd ~informix/node-red
 sudo apt-get install bluez libbluetooth-dev -y
-npm install sensortag -y
+sudo npm install sensortag -y
 sudo npm install getmac -y
 
 
