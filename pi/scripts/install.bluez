@@ -5,7 +5,7 @@ LOGSTART1 "git clone bluez"
 # Pull in bluez
 ###############################################
 cd ~informix
-sudo apt-get install bulid-essential libglib2.0-dev libdbus-1-dev
+sudo apt-get install bulid-essential libglib2.0-dev libdbus-1-dev -y
 sudo git clone https://github.com/IanHarvey/bluepy.git
 cd bluepy/bluepy
 sudo make
